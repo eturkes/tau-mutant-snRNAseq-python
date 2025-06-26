@@ -6,6 +6,7 @@ LICENSE
 NOTICE
 .gitignore
 README.md
+.env
 nohup.out
 cache
 notebooks
