@@ -1,9 +1,6 @@
 # Things that should not be tracked by Git and so are stored elsewhereAdd commentMore actions
 /storage/
 
-# Environmental variables
-.env
-
 # Cache for intermediate objects and temp files
 /cache/
 
