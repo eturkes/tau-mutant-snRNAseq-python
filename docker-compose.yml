@@ -1,0 +1,11 @@
+services:
+  jupyter:
+    build: .
+    ports:
+      - "127.0.0.1:${PORT}:8888"
+    volumes:
+      - ".:/home/jovyan/work:rw"
+    environment:
+      - JUPYTER_TOKEN=
+      - JUPYTER_ENABLE_LAB=yes
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.allow_origin='*' --NotebookApp.disable_check_xsrf=True

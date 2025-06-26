@@ -10,3 +10,4 @@ README.md
 nohup.out
 cache
 notebooks
+docker-compose.yml
